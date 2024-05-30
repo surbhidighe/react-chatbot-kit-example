@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* chatbot css */
+.react-chatbot-kit-chat-header{
+ display: none;
+}
+.react-chatbot-kit-chat-container {
+  width: 100%;
+}
+.react-chatbot-kit-chat-inner-container {
+  height: 100vh;
+}
+.react-chatbot-kit-chat-message-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+  padding: 45px 18px;
+}
+.react-chatbot-kit-chat-input-container {
+  position: fixed;
+  max-width: -webkit-fill-available;
+  bottom: 5px;
+  /* max-width: 80vw; */
+}
+.react-chatbot-kit-chat-bot-message {
+  margin-left: inherit;
+  max-width: 60%;
+  width: auto;
+}
+.react-chatbot-kit-user-chat-message {
+  width: auto;
+  max-width:60%
+}
+.react-chatbot-kit-chat-input {
+  border: 1px solid #d1cece;
+  padding: 16px;
+}
+.react-chatbot-kit-chat-input:focus-visible{
+  outline: none;
+}
+
+
