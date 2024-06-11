@@ -4,7 +4,7 @@ import "react-chatbot-kit/build/main.css";
 import { config } from "./config";
 import ActionProvider from "./ActionProvider";
 import MessageParser from "./MessageParser";
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 
 const ChatBotComponent = ({messagesList, setMessagesList}) => {
 
@@ -16,7 +16,7 @@ const ChatBotComponent = ({messagesList, setMessagesList}) => {
     <Chatbot
       config={config}
       messageParser={MessageParser}
-      actionProvider={(props) => <ActionProvider setMessagesList={setMessagesList} {...props} />}
+      actionProvider={ActionProvider}
     />
   );
 };

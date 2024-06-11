@@ -3,12 +3,4 @@ const botName = 'Test bot';
 export const config = {
     initialMessages: [createChatBotMessage(`Hey there! I'm ${botName}`)],
     botName: botName,
-    customStyles: {
-        botMessageBox: {
-          backgroundColor: "#D273F2",
-        },
-        chatButton: {
-          backgroundColor: '#D273F2',
-        },
-      },
 };

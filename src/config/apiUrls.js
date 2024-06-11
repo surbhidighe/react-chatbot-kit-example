@@ -1,7 +1,7 @@
 export const BASE_API = {
-  URL: "https://magickbgemini.azurewebsites.net/",
+  URL: "https://example.com/api",
 };
 
 export const CHAT_CONSTANTS = {
-  GET_PROMPT_RESPONSE: "kb"
+  GET_PROMPT_RESPONSE: "prompts"
 }
